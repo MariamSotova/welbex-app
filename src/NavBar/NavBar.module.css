@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+
+.NavBar {
+  max-width: 1140px;
+  margin: 0 auto;
+  top: 0;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  padding: 0 15px;
+  color: #e4e5ea;
+}
+
+.NavBar nav {
+  /* margin: 0 auto; */
+  padding: 46px 0px 0px;
+}
+
+.NavBar nav ul {
+  list-style: none;
+  margin: 0;
+  display: flex;
+  padding: 0;
+  text-align: left;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.NavBar nav ul li {
+  display: inline-block;
+  /* margin: 0.5vw; */
+}
+
+.NavBar nav ul li a {
+  text-decoration: none;
+  color: #e5e3dc;
+}
+
+.logoText {
+  padding-right: 40px;
+}
+.Call {
+  padding-left: 100px;
+}
+
+.NavBar .logoText {
+  font-family: "Montserrat", sans-serif;
+  font-size: 10px;
+  font-weight: 300;
+  line-height: 12px;
+}
+@media only screen and (max-width: 1200px) and (min-width: 321px) {
+  /* .NavBar nav {
+    margin: 0 20px;
+  } */
+}
+
+@media only screen and (max-width: 320px) {
+  .NavBar .logoText,
+  .NavBar .Certificates,
+  .NavBar .Call,
+  .NavBar .Telegram,
+  .NavBar .Viber,
+  .NavBar .Whatsapp {
+    /* visibility: hidden; */
+    display: none;
+  }
+
+  .NavBar {
+    font-size: 12px;
+    line-height: 14px;
+    /* padding: 0 16px; */
+    text-transform: uppercase;
+    background-color: #000000;
+  }
+
+  .NavBar nav ul {
+    margin: 0;
+    display: flex;
+    padding-left: 5px;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .NavBar nav ul li {
+    margin: 0;
+    padding: 0;
+    padding-right: 10px;
+  }
+
+  .NavBar nav {
+    padding: 25px 0 0;
+  }
+}
