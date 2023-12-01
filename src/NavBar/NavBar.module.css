@@ -53,10 +53,49 @@
   font-weight: 300;
   line-height: 12px;
 }
-@media only screen and (max-width: 1200px) and (min-width: 321px) {
-  /* .NavBar nav {
-    margin: 0 20px;
-  } */
+@media only screen and (max-width: 990px) and (min-width: 730px) {
+  .NavBar .Call {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 731px) and (min-width: 691px) {
+  .NavBar .Certificates,
+  .NavBar .Call,
+  .NavBar .Telegram,
+  .NavBar .Viber,
+  .NavBar .Whatsapp {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 690px) and (min-width: 321px) {
+  .NavBar .logoText,
+  .NavBar .Certificates,
+  .NavBar .Call,
+  .NavBar .Telegram,
+  .NavBar .Viber,
+  .NavBar .Whatsapp {
+    display: none;
+  }
+
+  .NavBar nav ul {
+    justify-content: center;
+  }
+
+  .NavBar {
+    font-size: 12px;
+    line-height: 14px;
+    text-transform: uppercase;
+    padding: 0 5px;
+  }
+
+  .NavBar nav ul li a {
+    padding: 0 5px;
+  }
+  .NavBar nav {
+    padding: 25px 0 0;
+  }
 }
 
 @media only screen and (max-width: 320px) {
@@ -66,14 +105,12 @@
   .NavBar .Telegram,
   .NavBar .Viber,
   .NavBar .Whatsapp {
-    /* visibility: hidden; */
     display: none;
   }
 
   .NavBar {
     font-size: 12px;
     line-height: 14px;
-    /* padding: 0 16px; */
     text-transform: uppercase;
     background-color: #000000;
   }
