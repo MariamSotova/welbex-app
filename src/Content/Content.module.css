@@ -1,0 +1,208 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap");
+
+.Info {
+  text-align: left;
+}
+
+.InfoHeader {
+  font-family: "Inter", sans-serif;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 58px;
+  color: #e4e5ea;
+}
+
+.GradientText {
+  font-family: "Inter", sans-serif;
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 58px;
+
+  background: linear-gradient(135deg, #fcb045 50%, #ff3f78 90%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.InfoText {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #e4e5ea;
+  padding-top: 30px;
+}
+
+.Content {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 15px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.ContentInfo {
+  width: 100%;
+  padding: 136px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Info p {
+  margin: 0;
+}
+
+.InfoAdvantages {
+  text-align: right;
+  margin-top: 50px;
+}
+
+.InfoList {
+  display: flex;
+  width: 294px;
+}
+
+.GradientInfoText {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px;
+  text-transform: uppercase;
+
+  background: linear-gradient(92deg, #fcb045 10%, #fd1d1d 60%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.GradientInfoTextItem {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px;
+  text-transform: uppercase;
+
+  background: linear-gradient(91deg, #fcb045 50%, #fd1d1d 130%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.InfoItem {
+  margin: 20px 0 0;
+}
+
+.InfoItem p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  color: #e4e5ea;
+}
+
+.InfoItem h4 {
+  text-transform: uppercase;
+  font-size: 18px;
+  line-height: 21px;
+  font-family: 500;
+  color: #e4e5ea;
+  margin-bottom: 10px;
+}
+
+.InfoAdvantages p {
+  margin: 0;
+}
+
+.InfoItemContainer {
+  margin-right: 20px;
+}
+
+.Button {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  align-items: center;
+  width: 262px;
+  height: 61px;
+  background-color: #4077f3;
+  color: #e4e5ea;
+  border: none;
+  margin-top: 40px;
+}
+
+.MobileInfo {
+  display: none;
+}
+
+@media only screen and (max-width: 830px) {
+  .Content {
+    display: flex;
+    margin: 40px 0px;
+  }
+
+  .ContentInfo {
+    display: block;
+    padding: 0;
+  }
+
+  .InfoHeader {
+    font-family: "Inter", sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 43px;
+    color: #e4e5ea;
+  }
+
+  .InfoAdvantages {
+    text-align: left;
+  }
+
+  .InfoList {
+    display: none;
+  }
+
+  .MobileInfo {
+    display: flex;
+    margin-top: 30px;
+  }
+
+  .MobileInfo p {
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 15px;
+    color: #e4e5ea;
+    padding-left: 15px;
+  }
+
+  .MobileInfoList {
+    padding-right: 20px;
+  }
+
+  .Button {
+    margin-top: 60px;
+  }
+
+  .MobileInfoLine {
+    padding-left: 20px;
+    position: relative;
+    display: inline-block;
+  }
+
+  .MobileInfoLine:before {
+    content: " ";
+    background: #010e12;
+    width: 10px;
+    height: 1px;
+    top: 10px;
+    left: 0;
+    position: absolute;
+    background: linear-gradient(90deg, #fcb045 30%, #fd1d1d 100%);
+  }
+}

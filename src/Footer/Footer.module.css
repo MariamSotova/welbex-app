@@ -4,6 +4,7 @@
 .Footer {
   margin: 0 auto;
   max-width: 1140px;
+  padding: 0 15px;
 }
 
 .FooterInfo {
@@ -39,6 +40,7 @@
   font-weight: 400;
   text-decoration: none;
   color: #e4e5ea;
+  padding-bottom: 10px;
 }
 
 .FooterInfoMenu .FooterText,
@@ -54,7 +56,7 @@
 
 .FooterSocialLinks {
   display: flex;
-  padding: 0;
+  padding: 16px 0 0;
   margin: 0;
   justify-content: flex-end;
 }
@@ -63,30 +65,47 @@
   padding-left: 10px;
 }
 
+.FooterInfoMenuLink {
+  display: flex;
+}
+
+.FooterInfoMenuLinkItem {
+  display: grid;
+  padding-right: 40px;
+}
+
+.FooterLinkLetterMobile {
+  display: none;
+}
+
 @media only screen and (max-width: 830px) {
   .FooterInfo {
     flex-direction: column;
     padding-bottom: 60px;
   }
 
-  .FooterInfoMenu a {
+  .FooterInfoMenu a,
+  .FooterInfoMenu p {
     font-size: 14px;
     font-weight: 400;
-    /* line-height: 16; */
     font-family: "Inter", sans-serif;
   }
 
   .FooterInfoMenu {
-    padding: 0 15px;
+    padding: 0;
   }
 
   .FooterInfoMenu:last-child {
     text-align: left;
   }
 
-  /* .FooterInfoMenu a:nth-of-type(2) {
-    font-size: 40px;
-  } */
+  .FooterLinkLetterMobile {
+    display: inline-block;
+  }
+
+  .FooterLinkLetter {
+    display: none;
+  }
 
   .FooterText {
     margin: 0;
@@ -94,8 +113,15 @@
 
   .FooterSocialLinks {
     justify-content: flex-start;
+    padding: 0;
   }
   .FooterSocialLinks a {
     padding-right: 10px;
+    padding-left: 0;
+    padding-bottom: 0;
+  }
+  .FooterTextAddress {
+    padding-top: 5px;
+    margin: 0 0 60px;
   }
 }
