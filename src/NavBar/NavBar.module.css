@@ -11,10 +11,12 @@
   line-height: 19px;
   padding: 0 15px;
   color: #e4e5ea;
+  background: url(../img/purple_light.svg), url(../img/purple_ball.svg);
+  background-position: top, 68% 0%;
+  background-repeat: no-repeat;
 }
 
 .NavBar nav {
-  /* margin: 0 auto; */
   padding: 46px 0px 0px;
 }
 
@@ -88,6 +90,7 @@
     line-height: 14px;
     text-transform: uppercase;
     padding: 0 5px;
+    background: none;
   }
 
   .NavBar nav ul li a {
@@ -113,6 +116,7 @@
     line-height: 14px;
     text-transform: uppercase;
     background-color: #000000;
+    background: none;
   }
 
   .NavBar nav ul {

@@ -43,6 +43,9 @@
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: flex-start;
+  background: url(../img/red_ball.svg), url(../img/purple_light.svg);
+  background-position: 35% 0%, top;
+  background-repeat: no-repeat;
 }
 
 .ContentInfo {
@@ -50,6 +53,9 @@
   padding: 136px 0px;
   display: flex;
   justify-content: space-between;
+  background: url(../img/small_red_ball.svg) no-repeat;
+  background-position-x: 58%;
+  background-position-y: 78%;
 }
 
 .Info p {
@@ -115,6 +121,7 @@
 
 .InfoAdvantages p {
   margin: 0;
+  font-weight: 700;
 }
 
 .InfoItemContainer {
@@ -148,14 +155,21 @@
 @media only screen and (max-width: 690px) {
   .Content {
     display: flex;
-    margin: 40px 0px;
+    margin: 20px 0px;
+    padding: 60px 0;
+    background-image: url(../img/bg-mobile.jpg);
+    background-size: cover;
+    /* background: url(../img/purple_light.svg), url(../img/red_light.svg),
+      url(../img/purple_ball_mobile_r.svg), url(../img/small_red_ball.svg);
+    background-repeat: no-repeat;
+    background-position: right center, left bottom, 100% 60%, 10% 100%; */
   }
 
   .ContentInfo {
-    display: flex;
+    display: grid;
     padding: 0;
-    flex-direction: column;
-    align-items: center;
+    justify-content: center;
+    background: none;
   }
 
   .InfoHeader {
@@ -168,6 +182,10 @@
 
   .InfoAdvantages {
     text-align: left;
+  }
+
+  .Button {
+    display: none;
   }
 
   .InfoList {

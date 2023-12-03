@@ -1,40 +1,24 @@
 .App {
   color: #e4e5ea;
   background-color: #000000;
+  background-image: url(/src/img/red_light.svg);
+  background-repeat: no-repeat;
+  overflow: hidden;
 }
 
-/* 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Скрываем scrollbar для Chrome, Safari и Opera */
+.App::-webkit-scrollbar {
+  display: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+/* Скрываем scrollbar для IE, Edge и Firefox */
+.App {
+  -ms-overflow-style: none; /* IE и Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+@media only screen and (max-width: 690px) {
+  .App {
+    background: #000000;
   }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */
