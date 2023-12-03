@@ -3,15 +3,6 @@
 ![Иллюстрация к проекту](/src/img/desktop_1440.png)
 ![Иллюстрация к проекту](/src/img/mobile_320.png)
 
-![Иллюстрация к проекту](https://github.com/jon/coolproject/raw/master/image/image.png)
-
-![Image alt](https://github.com/{username}/{repository}/raw/{branch}/{path}/image.png)
-
-{username} — ваш ник на ГитХабе;
-{repository} — репозиторий где хранятся картинки;
-{branch} — ветка репозитория;
-{path} — путь к месту нахождения картинки.
-
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
