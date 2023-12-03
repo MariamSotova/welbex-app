@@ -1,11 +1,11 @@
 # Превью страницы в GitHub
 
-![Иллюстрация к проекту](/src/img/desktop_1140.png)
+![Иллюстрация к проекту](/src/img/desktop_1440.png)
 ![Иллюстрация к проекту](/src/img/mobile_320.png)
 
-![Image alt](https://github.com/MariamSotova/welbex-app/main//src/img/desktop_1140.png)
+![Иллюстрация к проекту](https://github.com/jon/coolproject/raw/master/image/image.png)
 
-<!-- ![Image alt](https://github.com/{username}/s{repository}/raw/{main}/{/src/img/desktop_1140.png}/image.png) -->
+![Image alt](https://github.com/{username}/{repository}/raw/{branch}/{path}/image.png)
 
 {username} — ваш ник на ГитХабе;
 {repository} — репозиторий где хранятся картинки;
