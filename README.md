@@ -1,5 +1,7 @@
 # Превью страницы в GitHub
 
+[HH resume](https://hh.ru/resume/c702b6d9ff0c34f0320039ed1f314377704b38)
+
 ![Иллюстрация к проекту](/src/img/desktop_1440.png)
 ![Иллюстрация к проекту](/src/img/mobile_320.png)
 
