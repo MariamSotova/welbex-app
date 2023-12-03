@@ -1,8 +1,9 @@
 .App {
   color: #e4e5ea;
   background-color: #000000;
-  background-image: url(/src/img/red_light.svg);
+  background-image: url(./img/purple_light.svg), url(./img/red_light.svg);
   background-repeat: no-repeat;
+  background-position: top, left;
   overflow: hidden;
 }
 

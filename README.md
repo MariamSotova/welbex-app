@@ -1,3 +1,17 @@
+# Превью страницы в GitHub
+
+![Иллюстрация к проекту](/src/img/desktop_1140.png)
+![Иллюстрация к проекту](/src/img/mobile_320.png)
+
+![Image alt](https://github.com/MariamSotova/welbex-app/main//src/img/desktop_1140.png)
+
+<!-- ![Image alt](https://github.com/{username}/s{repository}/raw/{main}/{/src/img/desktop_1140.png}/image.png) -->
+
+{username} — ваш ник на ГитХабе;
+{repository} — репозиторий где хранятся картинки;
+{branch} — ветка репозитория;
+{path} — путь к месту нахождения картинки.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
